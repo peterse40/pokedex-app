@@ -10,6 +10,7 @@ class TabsInterface extends Component {
         return(
 
             <Tabs>
+
                 <TabList>
                     <Tab>Search</Tab>
                     <Tab>Create</Tab>
@@ -19,12 +20,15 @@ class TabsInterface extends Component {
                 <TabPanel>
                     <Search />
                 </TabPanel>
+
                 <TabPanel>
                     <Create />
                 </TabPanel>
+
                 <TabPanel>
                     <Destroy />
                 </TabPanel>
+                
             </Tabs>
 
         )

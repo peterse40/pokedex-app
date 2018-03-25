@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+Tabs {
+  border-collapse: collapse;
+}
+
+Tablist {
+  padding: 5px;
+  vertical-align: top;
+}
+
+TabPanel {
+  padding: 5px;
+  vertical-align: top;
+}
